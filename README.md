@@ -19,7 +19,7 @@ Used MySQL and Tableau to conduct conduct data analysis of sales (profit &amp; r
 SELECT count(*) FROM customers;
 
 3. Show transactions for Chennai market (market code for chennai is Mark001) <br />
-SELECT * FROM transactions where market_code='Mark001';
+<mark>SELECT * FROM transactions where market_code='Mark001'; </mark>
 
 4. Show distrinct product codes that were sold in chennai
 SELECT distinct product_code FROM transactions where market_code='Mark001';
