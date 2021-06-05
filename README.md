@@ -12,9 +12,11 @@ Used MySQL and Tableau to conduct conduct data analysis of sales (profit &amp; r
 3.  Data Analysis of revenue and profit using Tableau
 4.  Creating interactive dashboard using Tableau
 
-## Screenshots of Dashboards
-![RevenueDashboard](https://user-images.githubusercontent.com/58734347/120882317-6b2c4200-c609-11eb-9192-cac06d95b404.png)
-![ProfitDashboard](https://user-images.githubusercontent.com/58734347/120882322-71222300-c609-11eb-8411-4f774a941ec8.png)
+## Profit Analysis Dashboard
+![]( ProfitDashboard.png )
+
+## Revenue Analysis Dashboard
+![]( RevenueDashboard.png )
 
 
 ### Preliminary Data Exploration using SQL (Queries)
