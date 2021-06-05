@@ -1,9 +1,10 @@
 # Sales-Insights-Data-Analysis
 Used MySQL and Tableau to conduct conduct data analysis of sales (profit &amp; revenue) and represent the findings via interactive dashboards 
 
-## Technologies used : 
+## Resources: 
 1. MySQL 
 2.  Tableau 
+3.  Data ( provided in repo )
 
 ## Steps : 
 1. Preliminary Data Exploration using SQL 
@@ -36,5 +37,5 @@ SELECT count(*) FROM customers;
 8. Show total revenue in year 2020, January <br />
 `SELECT SUM(transactions.sales_amount) FROM transactions INNER JOIN date ON transactions.order_date=date.date where date.year=2020 and and date.month_name="January" and (transactions.currency="INR\r" or transactions.currency="USD\r");`
 
-9.Show total revenue in year 2020 in Chennai <br />
+9. Show total revenue in year 2020 in Chennai <br />
 `SELECT SUM(transactions.sales_amount) FROM transactions INNER JOIN date ON transactions.order_date=date.date where date.year=2020 and transactions.market_code="Mark001";`
