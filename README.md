@@ -1,6 +1,16 @@
 # Sales-Insights-Data-Analysis
 Used MySQL and Tableau to conduct conduct data analysis of sales (profit &amp; revenue) and represent the findings via interactive dashboards 
 
+## Technologies used : 
+1. MySQL 
+2.  Tableau 
+
+## Steps : 
+1. Preliminary Data Exploration using SQL 
+2.  Data Cleaning & ETL through Tableau 
+3.  Data Analysis of revenue and profit using Tableau
+4.  Creating interactive dashboard using Tableau
+
 ### Preliminary Data Exploration using SQL
 1. Show all customer records
 
