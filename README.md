@@ -16,9 +16,9 @@ Used MySQL and Tableau to conduct conduct data analysis of sales (profit &amp; r
 
 7. Show distrinct product codes that were sold in chennai
 
-8.SELECT distinct product_code FROM transactions where market_code='Mark001';
+8. SELECT distinct product_code FROM transactions where market_code='Mark001';
 
-9.Show transactions where currency is US dollars
+9. Show transactions where currency is US dollars
 
 10. SELECT * from transactions where currency="USD"
 
