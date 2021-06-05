@@ -24,7 +24,7 @@ Used MySQL and Tableau to conduct conduct data analysis of sales (profit &amp; r
 
 11. Show transactions in 2020 join by date table
 
-12.SELECT transactions.*, date.* FROM transactions INNER JOIN date ON transactions.order_date=date.date where date.year=2020;
+12. SELECT transactions.*, date.* FROM transactions INNER JOIN date ON transactions.order_date=date.date where date.year=2020;
 
 13. Show total revenue in year 2020,
 
